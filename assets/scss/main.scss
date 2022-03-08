@@ -1,0 +1,36 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.contenedor{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   
+   .contenido{
+
+      .fechas{
+         display: flex;
+         gap: 20px;
+      }
+
+      .relog{
+         display: flex;
+         justify-content: center;
+         align-items:center;
+         height:200px;
+         gap: 20px;
+         
+         .caja-segundos{
+            font-size: 30px;
+            display: flex;
+            flex-direction: column-reverse;
+         }
+      }
+   }
+}
